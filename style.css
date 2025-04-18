@@ -78,11 +78,6 @@ body {
   gap: 0.5rem;
 }
 
-.life-grid::after {
-  content: "";
-  flex: auto;
-}
-
 .life-grid .week {
   display: flex;
   gap: 2px;
