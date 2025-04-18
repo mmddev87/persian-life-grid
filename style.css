@@ -36,7 +36,7 @@ body {
   max-width: 500px;
   margin: 1rem auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -97,4 +97,10 @@ body {
 
 .life-grid .week .life-day.passed {
   background-color: #4a4aff;
+}
+
+@media screen and (max-width: 470px) {
+  .birthdate-form {
+    flex-direction: column;
+  }
 }
